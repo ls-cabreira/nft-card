@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --cyan-overlay: hsla(178, 100%, 50%, 0.5);
+    --very-dark-blue-main: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --text-color: hsl(212, 26%, 60%);
+    --white: hsl(0, 0%, 100%);
+
+    --font: "Outfit", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--very-dark-blue-main);
+    font-family: var(--font);
+    row-gap: 0.5rem;
+}
+
+.attribution {
+    color: var(--white);
+    text-align: center;
+    width: 85vw;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--cyan);
+}
